@@ -14,6 +14,7 @@
 		85BCD668200F4B6100B01257 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85BCD666200F4B6100B01257 /* LaunchScreen.storyboard */; };
 		85BCD673200F4B6100B01257 /* CalculatorForSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85BCD672200F4B6100B01257 /* CalculatorForSwiftTests.swift */; };
 		85BCD67E200F4B6100B01257 /* CalculatorForSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85BCD67D200F4B6100B01257 /* CalculatorForSwiftUITests.swift */; };
+		85BCD68C20102AF700B01257 /* btnbg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 85BCD68B20102AF700B01257 /* btnbg@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		85BCD679200F4B6100B01257 /* CalculatorForSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalculatorForSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		85BCD67D200F4B6100B01257 /* CalculatorForSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorForSwiftUITests.swift; sourceTree = "<group>"; };
 		85BCD67F200F4B6100B01257 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85BCD68B20102AF700B01257 /* btnbg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btnbg@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				85BCD65D200F4B6100B01257 /* AppDelegate.swift */,
 				85BCD65F200F4B6100B01257 /* ViewController.swift */,
 				85BCD661200F4B6100B01257 /* Main.storyboard */,
+				85BCD68B20102AF700B01257 /* btnbg@2x.png */,
 				85BCD664200F4B6100B01257 /* Assets.xcassets */,
 				85BCD666200F4B6100B01257 /* LaunchScreen.storyboard */,
 				85BCD669200F4B6100B01257 /* Info.plist */,
@@ -234,6 +237,7 @@
 			files = (
 				85BCD668200F4B6100B01257 /* LaunchScreen.storyboard in Resources */,
 				85BCD665200F4B6100B01257 /* Assets.xcassets in Resources */,
+				85BCD68C20102AF700B01257 /* btnbg@2x.png in Resources */,
 				85BCD663200F4B6100B01257 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -427,8 +431,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 55RFX6KFS7;
+				DEVELOPMENT_TEAM = G8N83WYDAQ;
 				INFOPLIST_FILE = CalculatorForSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hwq.CalculatorForSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -442,8 +447,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 55RFX6KFS7;
+				DEVELOPMENT_TEAM = G8N83WYDAQ;
 				INFOPLIST_FILE = CalculatorForSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hwq.CalculatorForSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
